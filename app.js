@@ -4,6 +4,9 @@ const bodyParser=require('body-parser');
 const cors=require('cors');
 const poll=require('./routes/poll');
 
+//dbConfig
+require('./config/db');
+
 const app=express();
 
 //set a folder
